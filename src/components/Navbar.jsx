@@ -41,7 +41,7 @@ else{
 
     return (
         
-        <header className="  w-full bg-white md:bg-transparent fixed top-0 left-0 right-0">
+        <header className=" font-poppins border-b border-gray-200 w-full bg-white  fixed top-0 left-0 right-0">
           
             <nav className={`max-w-6xl mx-auto p-4 ${isSticky ? "sticky top-0 left-0 right-0 border-b  bg-white duration-300" : ""}`}>
 
@@ -77,9 +77,12 @@ else{
             </button>
            </div>
             </div>
-               {/* nav items for mobile */}
+         
+            
+           
+           {/* nav items for mobile */}
 
-               <div className={'space-y-4 px-4'}>
+           <div className={`space-y-4 px-4 mt-16 py-7 bg-gray-100 ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}>
                {navItems.map(({ link, path }) => (
               <Link
                 to={path}
@@ -93,12 +96,7 @@ else{
               </Link>
             ))}
                </div>
-            </nav>
-           
-
-             
-                
-           
+               </nav>
         </header>
        
     );
