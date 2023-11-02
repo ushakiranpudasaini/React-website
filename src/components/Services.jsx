@@ -21,7 +21,6 @@ const Services = () => {
         <div className='mb-4  w-full'> <img src={service.image} alt="" className='h-64 rounded-md w-full object-cover'/></div>
         <h2 className='text-xl font-semibold mb-4'>{service.title}</h2>
         <p className='text-base text-gray-500'>{service.description}</p>
-      
       </div>
     </div>
 
