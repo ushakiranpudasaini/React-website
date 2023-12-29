@@ -43,7 +43,7 @@ else{
         
         <header className=" font-poppins border-b border-gray-200 w-full bg-white  fixed top-0 left-0 right-0">
           
-            <nav className={`max-w-6xl mx-auto p-4 ${isSticky ? "sticky top-0 left-0 right-0 border-b  bg-white duration-300" : ""}`}>
+            <nav className={`max-w-6xl mx-auto p-4 ${isSticky ? "sticky top-0 left-0 right-0 border-b z-[50] bg-white duration-300" : ""}`}>
 
             <div className="flex justify-between items-center text-base gap-6">
                 <a href=""><img src="{logo}" className="w-20 " alt=""/>Logo</a>

@@ -1,12 +1,12 @@
 import React from 'react'
-import aboutimg from '../assets/banner1.jpg'
+import aboutimg from '../assets/2.jpg'
 const About = () => {
   return (
  
       <div className='font-poppins px-4 py-12 max-w-6xl mx-auto'>
         <div className='flex flex-wrap items-center'>
             <div className="w-full px-4 lg:w-1/2">
-                <img src={aboutimg} alt=""/>
+                <img src={aboutimg} alt="" className="h-80 object-cover"/>
             </div>
             <div className="w-full px-4 lg:w-1/2">
             <span className="text-xs bg-blue-500 text-gray-50 px-2 rounded-md">About Us</span>

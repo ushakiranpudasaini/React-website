@@ -2,9 +2,9 @@ import React from 'react'
 
 const Services = () => {
   const services = [
-    {id:1, title:"Membership Organizations" , description:"Membership organizations are groups or associations formed by individuals or entities with common interests, goals, or purposes." , image:"/src/assets/banner1.jpg"},
-    {id:2, title:"Nonprofit Organizations" , description:"These groups represent businesses or organizations within a particular industry or trade." , image:"/src/assets/banner1.jpg"},
-    {id:3, title:"Profit Organizations" , description:"Many nonprofits have membership structures, where individuals or entities become members to support the organization's mission. " , image:"/src/assets/banner1.jpg"},
+    {id:1, title:"Membership Organizations" , description:"Membership organizations are groups or associations formed by individuals or entities with common interests, goals, or purposes." , image:"/src/assets/4.jpg"},
+    {id:2, title:"Nonprofit Organizations" , description:"These groups represent businesses or organizations within a particular industry or trade." , image:"/src/assets/5.jpg"},
+    {id:3, title:"Profit Organizations" , description:"Many nonprofits have membership structures, where individuals or entities become members to support the organization's mission. " , image:"/src/assets/6.jpg"},
   
   ]
   return (

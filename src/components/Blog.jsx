@@ -2,9 +2,9 @@ import React from 'react'
 
 const Blog = () => {
     const blogs = [
-        {id:1, title:"Five ways that can develop your business" , description:"Five ways that can develop your business Five ways that can develop your business" , image:"/src/assets/banner1.jpg"},
-        {id:2, title:"Designing Better Links For Websites & Emails" , description:"Designing Better Links Five ways that can develop your business For Websites & Emails" , image:"/src/assets/banner1.jpg"},
-        {id:3, title:"Strategies to Maintain a Positive Work" , description:"Strategies to Maintain a Five ways that can develop your business Positive Work Environment" , image:"/src/assets/banner1.jpg"},
+        {id:1, title:"Five ways that can develop your business" , description:"Five ways that can develop your business Five ways that can develop your business" , image:"/src/assets/7.jpg"},
+        {id:2, title:"Designing Better Links For Websites & Emails" , description:"Designing Better Links Five ways that can develop your business For Websites & Emails" , image:"/src/assets/8.jpg"},
+        {id:3, title:"Strategies to Maintain a Positive Work" , description:"Strategies to Maintain a Five ways that can develop your business Positive Work Environment" , image:"/src/assets/9.jpg"},
       
       ]
   return (
